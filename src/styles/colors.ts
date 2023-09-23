@@ -1,6 +1,8 @@
 export const colors = {
-    primary: "#f2f2f2",
+    primary: "#FCFCFC",
     secondary: "#333333",
     tertiary: "#ff0000",
-    quaternary: "#ffffff"
+    quaternary: "#ffffff",
+    primaryText: "#272B30",
+    tableText: "#6F767E",
 };

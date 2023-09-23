@@ -1,12 +1,12 @@
 import React from 'react'
-import { SearchForm } from '../../molecules'
+import { Text } from '../../atoms'
 
 type Props = {}
 
 const Header = (props: Props) => {
   return (
     <>
-      <SearchForm/>
+          <Text type='h3' >Payouts</Text>
     </>
   )
 }

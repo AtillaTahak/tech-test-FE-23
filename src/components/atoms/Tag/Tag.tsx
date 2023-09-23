@@ -2,7 +2,7 @@ import React from "react";
 import { StyledTag } from "./tag.styled";
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   primary?: boolean;
   color?: string;
 };

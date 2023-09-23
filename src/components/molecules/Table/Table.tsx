@@ -1,7 +1,6 @@
 import React from 'react'
 import {StyledTable} from './table.styled'
 type Props = {
-    children: React.ReactNode;
 }
 
 const Table = (props: Props) => {
