@@ -25,6 +25,11 @@ const GlobalStyle = createGlobalStyle`
         line-height: 1.6;
         background-color: ${colors.primary};
         color: ${colors.secondary};
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        min-height: 100vh;
+        margin: 0;
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: ${fonts.secondary};
